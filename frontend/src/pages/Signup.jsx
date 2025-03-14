@@ -33,7 +33,7 @@ function Signup() {
       toast.error("Please Select Your Gender")
     }
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/signup',inputs);
+      const response = await axios.post('https://chat-bot-xv7x.onrender.com/api/auth/signup',inputs);
       console.log("recieved response",response);
       
       
