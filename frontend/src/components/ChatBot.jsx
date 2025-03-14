@@ -29,7 +29,7 @@ function ChatBot() {
     setChatHistory((prev) => [...prev, userMessage]);
 
     try {
-      const response = await axios.post("http://localhost:5000/api/bot/chat", input);
+      const response = await axios.post("https://chat-bot-xv7x.onrender.com/api/bot/chat", input);
  
       if (response.status === 400) {
         toast.error("Enter a valid input");
