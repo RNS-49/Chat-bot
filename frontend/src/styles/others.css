@@ -1,0 +1,100 @@
+/* -------Styling rest of the content-------- */
+
+.documentation-section{
+  text-align: center;
+  margin-top: 80px;
+}
+
+.documentation-section h3{
+  font-family:'Courier New', Courier, monospace;
+}
+
+.description{
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.community-section{
+  text-align: center;
+  margin-top: 80px;
+}
+
+.community-section i{
+  font-size: 30px;
+  margin: 20px;
+}
+
+i{
+  color: black;
+}
+
+.footer-text{
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.footer-text i{
+  margin-right: 3px;
+}
+
+/* ------- Optimizing for mobile -------- */
+
+@media(max-width:600px){
+  .documentation-section{
+    text-align: center;
+    margin-top: 80px;
+  }
+  
+  .documentation-section h3{
+    font-family:'Courier New', Courier, monospace;
+
+  }
+  
+  .description{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+  }
+  
+  .community-section{
+    text-align: center;
+    margin-top: 80px;
+  }
+  
+  .community-section i{
+    font-size: 30px;
+    margin: 20px;
+  }
+  
+  
+}
+
+/* ------Optimizing for tablet--------- */
+
+@media(width:768px){
+  .documentation-section{
+    text-align: center;
+    margin-top: 80px;
+  }
+  
+  .documentation-section h3{
+    font-family:'Courier New', Courier, monospace;
+
+  }
+  
+  .description{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+  }
+  
+  .community-section{
+    text-align: center;
+    margin-top: 80px;
+  }
+  
+  .community-section i{
+    font-size: 30px;
+    margin: 20px;
+  }
+}

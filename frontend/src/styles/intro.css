@@ -1,0 +1,62 @@
+/* --------Styling intro page-------- */
+
+.overall-page{
+  background-color: whitesmoke;
+}
+
+.logo{
+  width: 25%;
+}
+
+.head-section{
+  text-align: center;
+  background-color:whitesmoke;
+  border: none;
+  border-radius: 20px;
+  padding: 30px;
+  font-family:sans-serif;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.heading{
+  font-family: 'Courier New', Courier, monospace;
+  color:black;
+  letter-spacing: 3px;
+}
+.head-section button{
+  margin: 10px;
+}
+
+li{
+  margin-right: 70px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+@media(max-width:600px){
+  .logo{
+    margin-left: -70px;
+    width: 100%;
+  }
+  
+  .head-section{
+    text-align: center;
+    background-color:whitesmoke;
+    border: none;
+    border-radius: 0px;
+    font-family:sans-serif;
+  }
+  .head-section p{
+    text-align: justify;
+  }
+  .head-section button{
+    margin: 5px;
+  }
+  
+  li{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+}

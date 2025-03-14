@@ -1,0 +1,14 @@
+/* -------Styling the documentation page------- */
+
+
+.documentation-sec{
+  text-align: center;
+  background-color: whitesmoke;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.documentation-sec li{
+  list-style: none;
+  font-family: 'Courier New', Courier, monospace;
+}
